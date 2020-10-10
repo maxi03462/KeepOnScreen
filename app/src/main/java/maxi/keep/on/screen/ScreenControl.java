@@ -17,7 +17,6 @@ public class ScreenControl extends BroadcastReceiver {
         if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
             releaseWakeLock(context);
             System.out.println("BR SCREEN TURNED OFF");
-        } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
         }
     }
 
@@ -51,8 +50,6 @@ public class ScreenControl extends BroadcastReceiver {
                 } catch (Exception e) {
                     System.out.println("Error mientras se soltaba");
                 }
-            } else {
-                System.out.println("No estaba bloqueada");
             }
             wakeLock = null;
         }

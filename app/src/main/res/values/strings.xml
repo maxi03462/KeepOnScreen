@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">KeepOnScreen</string>
     <string name="tile_name">Mantener pantalla encendida</string>
+    <string name="introduccion">Esta aplicación añade un botón para mantener la pantalla encendía.\nEsto aumenta considerablemente el consumo de la batería.</string>
 </resources>
